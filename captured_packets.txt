@@ -1,0 +1,692 @@
+Packet 1:
+Ether / IP / TCP 192.168.18.81:49780 > 3.161.104.120:https FA
+###[ Ethernet ]###
+  dst       = fc:1b:d1:fa:01:2c
+  src       = 24:77:03:a2:ed:20
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 62212
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xc8b8
+     src       = 192.168.18.81
+     dst       = 3.161.104.120
+     \options   \
+###[ TCP ]###
+        sport     = 49780
+        dport     = https
+        seq       = 623352092
+        ack       = 2734507361
+        dataofs   = 5
+        reserved  = 0
+        flags     = FA
+        window    = 509
+        chksum    = 0x3f2
+        urgptr    = 0
+        options   = []
+
+------------------------------------------------------------
+Packet 2:
+Ether / IP / TCP 192.168.18.81:49779 > 18.64.141.71:https FA
+###[ Ethernet ]###
+  dst       = fc:1b:d1:fa:01:2c
+  src       = 24:77:03:a2:ed:20
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 52300
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xbc02
+     src       = 192.168.18.81
+     dst       = 18.64.141.71
+     \options   \
+###[ TCP ]###
+        sport     = 49779
+        dport     = https
+        seq       = 876125453
+        ack       = 3237729103
+        dataofs   = 5
+        reserved  = 0
+        flags     = FA
+        window    = 512
+        chksum    = 0x1193
+        urgptr    = 0
+        options   = []
+
+------------------------------------------------------------
+Packet 3:
+Ether / IP / TCP 3.161.104.120:https > 192.168.18.81:49780 FA
+###[ Ethernet ]###
+  dst       = 24:77:03:a2:ed:20
+  src       = fc:1b:d1:fa:01:2c
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 17310
+     flags     = 
+     frag      = 0
+     ttl       = 247
+     proto     = tcp
+     chksum    = 0x411f
+     src       = 3.161.104.120
+     dst       = 192.168.18.81
+     \options   \
+###[ TCP ]###
+        sport     = https
+        dport     = 49780
+        seq       = 2734507361
+        ack       = 623352093
+        dataofs   = 5
+        reserved  = 0
+        flags     = FA
+        window    = 133
+        chksum    = 0x569
+        urgptr    = 0
+        options   = []
+
+------------------------------------------------------------
+Packet 4:
+Ether / IP / TCP 192.168.18.81:49780 > 3.161.104.120:https A
+###[ Ethernet ]###
+  dst       = fc:1b:d1:fa:01:2c
+  src       = 24:77:03:a2:ed:20
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 62213
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xc8b7
+     src       = 192.168.18.81
+     dst       = 3.161.104.120
+     \options   \
+###[ TCP ]###
+        sport     = 49780
+        dport     = https
+        seq       = 623352093
+        ack       = 2734507362
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 509
+        chksum    = 0x3f1
+        urgptr    = 0
+        options   = []
+
+------------------------------------------------------------
+Packet 5:
+Ether / IP / TCP 18.64.141.71:https > 192.168.18.81:49779 FA
+###[ Ethernet ]###
+  dst       = 24:77:03:a2:ed:20
+  src       = fc:1b:d1:fa:01:2c
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 19131
+     flags     = 
+     frag      = 0
+     ttl       = 247
+     proto     = tcp
+     chksum    = 0x694
+     src       = 18.64.141.71
+     dst       = 192.168.18.81
+     \options   \
+###[ TCP ]###
+        sport     = https
+        dport     = 49779
+        seq       = 3237729103
+        ack       = 876125454
+        dataofs   = 5
+        reserved  = 0
+        flags     = FA
+        window    = 133
+        chksum    = 0x130d
+        urgptr    = 0
+        options   = []
+
+------------------------------------------------------------
+Packet 6:
+Ether / IP / TCP 192.168.18.81:49779 > 18.64.141.71:https A
+###[ Ethernet ]###
+  dst       = fc:1b:d1:fa:01:2c
+  src       = 24:77:03:a2:ed:20
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 52301
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xbc01
+     src       = 192.168.18.81
+     dst       = 18.64.141.71
+     \options   \
+###[ TCP ]###
+        sport     = 49779
+        dport     = https
+        seq       = 876125454
+        ack       = 3237729104
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 512
+        chksum    = 0x1192
+        urgptr    = 0
+        options   = []
+
+------------------------------------------------------------
+Packet 7:
+Ether / IP / TCP 140.82.112.26:https > 192.168.18.81:49762 PA / Raw
+###[ Ethernet ]###
+  dst       = 24:77:03:a2:ed:20
+  src       = fc:1b:d1:fa:01:2c
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 65
+     id        = 17036
+     flags     = DF
+     frag      = 0
+     ttl       = 48
+     proto     = tcp
+     chksum    = 0x38c5
+     src       = 140.82.112.26
+     dst       = 192.168.18.81
+     \options   \
+###[ TCP ]###
+        sport     = https
+        dport     = 49762
+        seq       = 3409928389
+        ack       = 2071354718
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 79
+        chksum    = 0xa4b1
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = b'\x17\x03\x03\x00\x14(\xd5\xaa\x15\xa7\x0b\x13$W\xaf\x0e\x96N\xee\x08L\x93\x0ft\x9a'
+
+------------------------------------------------------------
+Packet 8:
+Ether / IP / TCP 192.168.18.81:49762 > 140.82.112.26:https PA / Raw
+###[ Ethernet ]###
+  dst       = fc:1b:d1:fa:01:2c
+  src       = 24:77:03:a2:ed:20
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 69
+     id        = 43616
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x80ec
+     src       = 192.168.18.81
+     dst       = 140.82.112.26
+     \options   \
+###[ TCP ]###
+        sport     = 49762
+        dport     = https
+        seq       = 2071354718
+        ack       = 3409928414
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 512
+        chksum    = 0x5bee
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = b'\x17\x03\x03\x00\x18{\x86\xa9\xa4\x8bj\'")\xfeP)\xea4\xdctK\'\x7f\xb3\x03\xfa`)'
+
+------------------------------------------------------------
+Packet 9:
+Ether / IP / TCP 140.82.112.26:https > 192.168.18.81:49762 A
+###[ Ethernet ]###
+  dst       = 24:77:03:a2:ed:20
+  src       = fc:1b:d1:fa:01:2c
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 17037
+     flags     = DF
+     frag      = 0
+     ttl       = 48
+     proto     = tcp
+     chksum    = 0x38dd
+     src       = 140.82.112.26
+     dst       = 192.168.18.81
+     \options   \
+###[ TCP ]###
+        sport     = https
+        dport     = 49762
+        seq       = 3409928414
+        ack       = 2071354747
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 79
+        chksum    = 0x16f2
+        urgptr    = 0
+        options   = []
+
+------------------------------------------------------------
+Packet 10:
+Ether / IP / TCP 192.168.18.81:49670 > 185.199.110.154:https A / Raw
+###[ Ethernet ]###
+  dst       = fc:1b:d1:fa:01:2c
+  src       = 24:77:03:a2:ed:20
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 41
+     id        = 12850
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xcd41
+     src       = 192.168.18.81
+     dst       = 185.199.110.154
+     \options   \
+###[ TCP ]###
+        sport     = 49670
+        dport     = https
+        seq       = 1736801973
+        ack       = 850594385
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 512
+        chksum    = 0xcb77
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = b'\x00'
+
+------------------------------------------------------------
+Packet 11:
+Ether / IP / TCP 185.199.110.154:https > 192.168.18.81:49670 A
+###[ Ethernet ]###
+  dst       = 24:77:03:a2:ed:20
+  src       = fc:1b:d1:fa:01:2c
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 52
+     id        = 6068
+     flags     = DF
+     frag      = 0
+     ttl       = 57
+     proto     = tcp
+     chksum    = 0x2eb5
+     src       = 185.199.110.154
+     dst       = 192.168.18.81
+     \options   \
+###[ TCP ]###
+        sport     = https
+        dport     = 49670
+        seq       = 850594385
+        ack       = 1736801974
+        dataofs   = 8
+        reserved  = 0
+        flags     = A
+        window    = 315
+        chksum    = 0xc9ae
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('SAck', (1736801973, 1736801974))]
+
+------------------------------------------------------------
+Packet 12:
+Ether / IP / TCP 192.168.18.81:49700 > 185.199.109.154:https A / Raw
+###[ Ethernet ]###
+  dst       = fc:1b:d1:fa:01:2c
+  src       = 24:77:03:a2:ed:20
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 41
+     id        = 19259
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xb538
+     src       = 192.168.18.81
+     dst       = 185.199.109.154
+     \options   \
+###[ TCP ]###
+        sport     = 49700
+        dport     = https
+        seq       = 1685177843
+        ack       = 3799589369
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 1025
+        chksum    = 0xbebf
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = b'\x00'
+
+------------------------------------------------------------
+Packet 13:
+Ether / IP / TCP 185.199.109.154:https > 192.168.18.81:49700 A
+###[ Ethernet ]###
+  dst       = 24:77:03:a2:ed:20
+  src       = fc:1b:d1:fa:01:2c
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 52
+     id        = 10277
+     flags     = DF
+     frag      = 0
+     ttl       = 57
+     proto     = tcp
+     chksum    = 0x1f44
+     src       = 185.199.109.154
+     dst       = 192.168.18.81
+     \options   \
+###[ TCP ]###
+        sport     = https
+        dport     = 49700
+        seq       = 3799589369
+        ack       = 1685177844
+        dataofs   = 8
+        reserved  = 0
+        flags     = A
+        window    = 360
+        chksum    = 0x3676
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('SAck', (1685177843, 1685177844))]
+
+------------------------------------------------------------
+Packet 14:
+Ether / IP / TCP 20.207.73.82:https > 192.168.18.81:49777 PA / Raw
+###[ Ethernet ]###
+  dst       = 24:77:03:a2:ed:20
+  src       = fc:1b:d1:fa:01:2c
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 64
+     id        = 50561
+     flags     = DF
+     frag      = 0
+     ttl       = 46
+     proto     = tcp
+     chksum    = 0x561c
+     src       = 20.207.73.82
+     dst       = 192.168.18.81
+     \options   \
+###[ TCP ]###
+        sport     = https
+        dport     = 49777
+        seq       = 212524057
+        ack       = 1974804064
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 124
+        chksum    = 0xa657
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = b'\x17\x03\x03\x00\x13\xbf\xd7\xc9l\xb4#g\xaf\x00\xff\xb0\\\xf6\x18\xaf\x06\x18\xd6\xa9'
+
+------------------------------------------------------------
+Packet 15:
+Ether / IP / TCP 192.168.18.81:49777 > 20.207.73.82:https A
+###[ Ethernet ]###
+  dst       = fc:1b:d1:fa:01:2c
+  src       = 24:77:03:a2:ed:20
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 52
+     id        = 31250
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4f97
+     src       = 192.168.18.81
+     dst       = 20.207.73.82
+     \options   \
+###[ TCP ]###
+        sport     = 49777
+        dport     = https
+        seq       = 1974804064
+        ack       = 212524018
+        dataofs   = 8
+        reserved  = 0
+        flags     = A
+        window    = 508
+        chksum    = 0x3428
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('SAck', (212524057, 212524081))]
+
+------------------------------------------------------------
+Packet 16:
+Ether / IP / TCP 20.207.73.82:https > 192.168.18.81:49777 PA / Raw
+###[ Ethernet ]###
+  dst       = 24:77:03:a2:ed:20
+  src       = fc:1b:d1:fa:01:2c
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 79
+     id        = 50560
+     flags     = DF
+     frag      = 0
+     ttl       = 46
+     proto     = tcp
+     chksum    = 0x560e
+     src       = 20.207.73.82
+     dst       = 192.168.18.81
+     \options   \
+###[ TCP ]###
+        sport     = https
+        dport     = 49777
+        seq       = 212524018
+        ack       = 1974804064
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 124
+        chksum    = 0x7ba7
+        urgptr    = 0
+        options   = []
+###[ Raw ]###
+           load      = b'\x17\x03\x03\x00"v\xf0\x84\x9a\xe2W\xf9\xec\x1ee2\x08\x00]\xc8\xf6\x85\x00WG\xc7\xf0e\x15\xd7\xb5\x0c\x166c4\x98;\xdf'
+
+------------------------------------------------------------
+Packet 17:
+Ether / IP / TCP 20.207.73.82:https > 192.168.18.81:49777 FA
+###[ Ethernet ]###
+  dst       = 24:77:03:a2:ed:20
+  src       = fc:1b:d1:fa:01:2c
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 50562
+     flags     = DF
+     frag      = 0
+     ttl       = 46
+     proto     = tcp
+     chksum    = 0x5633
+     src       = 20.207.73.82
+     dst       = 192.168.18.81
+     \options   \
+###[ TCP ]###
+        sport     = https
+        dport     = 49777
+        seq       = 212524081
+        ack       = 1974804064
+        dataofs   = 5
+        reserved  = 0
+        flags     = FA
+        window    = 124
+        chksum    = 0x3d1f
+        urgptr    = 0
+        options   = []
+
+------------------------------------------------------------
+Packet 18:
+Ether / IP / TCP 192.168.18.81:49777 > 20.207.73.82:https A
+###[ Ethernet ]###
+  dst       = fc:1b:d1:fa:01:2c
+  src       = 24:77:03:a2:ed:20
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 31251
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4fa2
+     src       = 192.168.18.81
+     dst       = 20.207.73.82
+     \options   \
+###[ TCP ]###
+        sport     = 49777
+        dport     = https
+        seq       = 1974804064
+        ack       = 212524081
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 508
+        chksum    = 0x3ba0
+        urgptr    = 0
+        options   = []
+
+------------------------------------------------------------
+Packet 19:
+Ether / IP / TCP 192.168.18.81:49777 > 20.207.73.82:https A
+###[ Ethernet ]###
+  dst       = fc:1b:d1:fa:01:2c
+  src       = 24:77:03:a2:ed:20
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 31252
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4fa1
+     src       = 192.168.18.81
+     dst       = 20.207.73.82
+     \options   \
+###[ TCP ]###
+        sport     = 49777
+        dport     = https
+        seq       = 1974804064
+        ack       = 212524082
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 508
+        chksum    = 0x3b9f
+        urgptr    = 0
+        options   = []
+
+------------------------------------------------------------
+Packet 20:
+Ether / IP / TCP 192.168.18.81:49777 > 20.207.73.82:https FA
+###[ Ethernet ]###
+  dst       = fc:1b:d1:fa:01:2c
+  src       = 24:77:03:a2:ed:20
+  type      = IPv4
+###[ IP ]###
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 31253
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4fa0
+     src       = 192.168.18.81
+     dst       = 20.207.73.82
+     \options   \
+###[ TCP ]###
+        sport     = 49777
+        dport     = https
+        seq       = 1974804064
+        ack       = 212524082
+        dataofs   = 5
+        reserved  = 0
+        flags     = FA
+        window    = 508
+        chksum    = 0x3b9e
+        urgptr    = 0
+        options   = []
+
+------------------------------------------------------------
